@@ -46,6 +46,6 @@ class CadastrarController extends AbstractController
 
         $this->addFlash('success', "Categoria \"{$nomeCategoria}\" cadastrada com sucesso!");
 
-        return $this->redirectToRoute('cadastrar_categoria_show');
+        return $this->redirectToRoute('listar_categorias');
     }
 }
